@@ -1,9 +1,9 @@
-﻿# delete-folder-content-windows-service
+# Delete Folder Content Windows Service
 This project is a simple Delete Folder Content Windows Service.
 
 
-## Create Windows Service
-	- sc.exe create "Delete Folder Content Worker" binpath= C:\temp\WindowsServices\DeleteFolderContentWorker\DeleteFolderContentService.exe start= auto
+## How to install Windows Service
+ - sc.exe create "Delete Folder Content Worker" binpath= C:\path\to\exe\DeleteFolderContentService.exe start= auto
 
-## Delete Windows Service
-	- sc.exe delete "Delete Folder Content Worker" binpath= C:\temp\WindowsServices\DeleteFolderContentWorker\DeleteFolderContentService.exe start= auto
+## How to delete Windows Service
+ - sc.exe delete "Delete Folder Content Worker" binpath= C:\path\to\exe\DeleteFolderContentService.exe start= auto
